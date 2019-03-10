@@ -34,7 +34,7 @@ function getJSON(event){
     const zip=document.getElementById('zipcode').value;
     console.log(zip);     
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${zip},us&unites=imperial&appid=b51166f933357bc4db15868fd0b0319f`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imperial&appid=b51166f933357bc4db15868fd0b0319f`)
     .then(response=>response.json())
     .then(data=>{      
         var iconCode = data.weather[0].icon;
