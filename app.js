@@ -14,7 +14,7 @@ function getJSON(event){
             output+=`<h4>City: ${data.name}</h4><br><h5>Current Conditions:</h5>
             <ul>
                 <li>Temperature: ${data.main.temp}</li>
-                <li>Current Conditions: ${data.weather.main} : ${data.weather.description}</li>
+                <li>Current Conditions: ${data.weather[description]}</li    >
                 <li>Atmospheric Pressure: ${data.main.pressure}</li>
                 <li>Humidity: ${data.main.humidity}</li>
             </ul>
