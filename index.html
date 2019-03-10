@@ -11,29 +11,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="row col s12 m6">                   
-            <nav>
-                <div>
-                    <h2 class="red lighten-2 white-text center-align">Brian's Weather Page</h2>
-                </div>
-            </nav> 
-        </div>
-        <div class="row col s12 m6">
-            <h5 class="blue-text">Enter 5 digit zip code to view current weather</h4>
-            <div class="divider"></div>
-            <div class="section">
-                <div class="input-field col s6">
-                    <input type="text" id="zipcode" placeholder="zipcode">
-                    <label for="city" class= "h5">Zipcode</label>
-                </div>
+        <div class="row">                   
+            <div class="col s12 m8 " >
+                 <h2 class="red lighten-2 white-text center-align" style="padding: 1rem;">Brian's Weather Page</h2>
             </div>
-
-            <button class="btn waves-effect waves-light" type="submit" id='submit'>Submit
-                    <i class="material-icons right">send</i>
-            </button>
         </div>
-        <div class="row col s12 m6">
-            <div id="current_weather">  
+        <div class="row">
+            <div class=" col s12 m6">
+                <h5 class="blue-text">Enter 5 digit zip code to view current weather</h4>
+                <div class="divider"></div>
+                <div class="section">
+                    <div class="input-field col s6">
+                        <input type="text" id="zipcode" placeholder="zipcode">
+                        <label for="city" class= "h5">Zipcode</label>
+                    </div>
+                </div>
+
+                <button class="btn waves-effect waves-light" type="submit" id='submit'>Submit
+                        <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div id="current_weather">  
+                </div>
             </div>
         </div>
     </div>
