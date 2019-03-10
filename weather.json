@@ -1,14 +1,14 @@
 [
-{
-    "zipcode" : "10543",
-    "city" : "mamaroneck",
-    "temp" : "85",
-    "condition": "rain" 
-},
-{
-    "zipcode" : "10562",
-    "city" : "ossining",
-    "temp" : "82",
-    "condition" : "sunny"
-}
+    {
+        "zipcode" : "10543",
+        "city" : "mamaroneck",
+        "temp" : "85",
+        "condition": "rain" 
+    },
+    {
+        "zipcode" : "10562",
+        "city" : "ossining",
+        "temp" : "82"   ,
+        "condition" : "sunny"
+    }
 ]
