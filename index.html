@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <style>
+    .input-field > label {
+     font-size: 1.5rem;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row col s12 m6">                   
+        <nav>
+            <div>
+                <div class="brand-logo center"><i class="large material-icons">ac_unit</i><i class="large material-icons">cloud_queue</i>Brian's Weather Page<i class="large material-icons">wb_sunny</i></div>
+            </div>
+        </nav>
+         <h5 class="blue-text">Enter a zipcode in form below to view current weather</h4>
+
+            <div class="divider"></div>
+            <div class="section">
+               <div class="input-field col s6">
+                  <input type="text" id="zipcode" placeholder="zipcode">
+                  <label for="city" class= "h5">Zipcode</label>
+              </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" id='submit'>Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+            </div>
+        </div>
+        <div class="row col s12 m6" id="current_weather">  
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
